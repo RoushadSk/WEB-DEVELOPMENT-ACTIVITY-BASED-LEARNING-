@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .card {
+            display: inline-block;
+            background-color: white;
+            width: 200px;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #34495e;
+            color: white;
+        }
+
+        .notice {
+            background-color: white;
+            margin: 15px auto;
+            padding: 15px;
+            width: 75%;
+            border-left: 5px solid #3498db;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Academic Dashboard</h1>
+        <p>Welcome to Your Student Portal</p>
+    </header>
+
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#attendance">Attendance</a>
+        <a href="#results">Results</a>
+        <a href="#exams">Exams</a>
+        <a href="#announcements">Announcements</a>
+    </nav>
+
+    <h2 id="profile">Student Details</h2>
+
+    <div style="text-align:center;">
+        <div class="card">
+            <h3>Name</h3>
+            <p>Roushad Shaik</p>
+        </div>
+
+        <div class="card">
+            <h3>Course</h3>
+            <p>B.Tech CSE</p>
+        </div>
+
+        <div class="card">
+            <h3>Semester</h3>
+            <p>First Semester</p>
+        </div>
+    </div>
+
+    <h2 id="attendance">Attendance</h2>
+
+    <div style="text-align:center;">
+        <div class="card">
+            <h3>Overall Attendance</h3>
+            <p>85 Percent</p>
+        </div>
+    </div>
+
+    <h2 id="results">Semester Results</h2>
+
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>88</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Programming</td>
+            <td>92</td>
+            <td>A+</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>81</td>
+            <td>A</td>
+        </tr>
+    </table>
+
+    <h2 id="exams">Examination Schedule</h2>
+
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Date</th>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>10 November 2026</td>
+        </tr>
+        <tr>
+            <td>Programming</td>
+            <td>13 November 2026</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>16 November 2026</td>
+        </tr>
+    </table>
+
+    <h2 id="announcements">Announcements</h2>
+
+    <div class="notice">
+        <p>Internal examinations will begin soon.</p>
+    </div>
+
+    <div class="notice">
+        <p>Submit assignments before the deadline.</p>
+    </div>
+
+    <footer>
+        <p>Student Academic Dashboard</p>
+    </footer>
+
+</body>
+</html>

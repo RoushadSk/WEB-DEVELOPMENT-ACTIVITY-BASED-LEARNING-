@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Review Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-top: 30px;
+        }
+
+        .movies {
+            text-align: center;
+            padding: 15px;
+        }
+
+        .movie {
+            display: inline-block;
+            width: 240px;
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px #ccc;
+            vertical-align: top;
+        }
+
+        .movie img {
+            width: 100%;
+            height: 280px;
+            border-radius: 8px;
+        }
+
+        .movie h3 {
+            color: #6a1b9a;
+        }
+
+        .movie p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .rating {
+            color: #d68a00;
+            font-weight: bold;
+        }
+
+        .about {
+            background-color: white;
+            margin: 25px;
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.7;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Movie Review Website</h1>
+        <p>Your Guide to Movies, Ratings and Reviews</p>
+        <p>Explore films, discover stories and find your next favourite movie.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#movies">Movies</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#about">About Us</a>
+    </nav>
+
+    <h2 id="home">Welcome to Movie Reviews</h2>
+
+    <div class="about">
+        <p>
+            Welcome to our Movie Review Website. Here you can explore popular
+            movies, read story summaries, learn about actors, check release
+            dates and view ratings. Our website helps movie lovers discover
+            films from different genres, including action, comedy, romance,
+            drama, fantasy and thriller.
+        </p>
+    </div>
+
+    <h2 id="movies">Popular Movies</h2>
+
+    <div class="movies">
+
+        <div class="movie">
+            <img src="https://imgs.search.brave.com/hjXcgTQ_6W8ecwjN2aAbqMqy_m0TJEwl1QcjwhPJsUc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzE2LzAy/LzIxLzE2MDIyMTEy/Y2VmNmRhNTgwNTNl/NzIxMzhkNmVkNzc4/LmpwZw"
+                 alt="RRR poster">
+            <h3>RRR</h3>
+            <p><b>Genre:</b> Action and Drama</p>
+            <p><b>Release Date:</b> 25 March 2022</p>
+            <p><b>Director:</b> S. S. Rajamouli</p>
+            <p><b>Cast:</b> Ram Charan, Jr. NTR, Alia Bhatt</p>
+            <p><b>Story:</b> Two revolutionaries form a powerful friendship
+            while fighting against British colonial rule.</p>
+            <p class="rating">Rating: 8 out of 10</p>
+            <p><b>Critic Review:</b> A grand action drama with powerful
+            performances and impressive visuals.</p>
+        </div>
+
+        <div class="movie">
+            <img src="https://imgs.search.brave.com/Q2aoZHLkh7bVzsMzGIEffyUjYxMH_AnOaGLcaBAezbk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzk3Lzgy/LzNmLzk3ODIzZmVj/M2FhZDc3NTNmMjcw/NzYzODY2OWJkYWFh/LmpwZw"
+                 alt="Baahubali poster">
+            <h3>Baahubali</h3>
+            <p><b>Genre:</b> Action and Fantasy</p>
+            <p><b>Release Date:</b> 10 July 2015</p>
+            <p><b>Director:</b> S. S. Rajamouli</p>
+            <p><b>Cast:</b> Prabhas, Rana Daggubati, Anushka Shetty</p>
+            <p><b>Story:</b> A young man discovers his royal heritage
+            and becomes involved in a battle for the kingdom.</p>
+            <p class="rating">Rating: 8 out of 10</p>
+            <p><b>Critic Review:</b> An entertaining fantasy film with
+            memorable characters and spectacular action.</p>
+        </div>
+
+        <div class="movie">
+            <img src="https://imgs.search.brave.com/4LK_OwZQqe8hXzpzFBXyHS_WjaNwU2NEfMVQAsoJxPI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/ODErYWFlYi1SZEwu/anBn"
+                 alt="Pushpa poster">
+            <h3>Pushpa: The Rise</h3>
+            <p><b>Genre:</b> Action and Thriller</p>
+            <p><b>Release Date:</b> 17 December 2021</p>
+            <p><b>Director:</b> Sukumar</p>
+            <p><b>Cast:</b> Allu Arjun, Rashmika Mandanna, Fahadh Faasil</p>
+            <p><b>Story:</b> A determined worker rises through the
+            dangerous red sandalwood smuggling trade.</p>
+            <p class="rating">Rating: 7.6 out of 10</p>
+            <p><b>Critic Review:</b> A gripping action film featuring
+            a strong lead performance and memorable music.</p>
+        </div>
+
+        <div class="movie">
+            <img src="https://imgs.search.brave.com/hFjDbSapvaJoEPsZ-MVWv2bWHwbvJJTr6URy20gbEh4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2IwLzg5/L2EzL2IwODlhMzQ1/MWVlZmUxZDcxZTkz/M2Y4M2JhNTY3Mzg0/LmpwZw"
+                 alt="Jersey poster">
+            <h3>Jersey</h3>
+            <p><b>Genre:</b> Sports and Drama</p>
+            <p><b>Release Date:</b> 19 April 2019</p>
+            <p><b>Director:</b> Gowtam Tinnanuri</p>
+            <p><b>Cast:</b> Nani, Shraddha Srinath</p>
+            <p><b>Story:</b> A former cricketer tries to return to the
+            game to fulfil his dream and make his son proud.</p>
+            <p class="rating">Rating: 8.5 out of 10</p>
+            <p><b>Critic Review:</b> An emotional sports drama about
+            family, determination and second chances.</p>
+        </div>
+
+        <div class="movie">
+            <img src="https://imgs.search.brave.com/rE7d-njvmPVyOagsXfvzLZ8tqxFSvtHdOVL45keSuTk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50MS5qZG1hZ2lj/Ym94LmNvbS9jb21w/L2pkX3NvY2lhbC9u/ZXdzLzIwMThhdWcx/Mi9pbWFnZS0zMjM0/ODkteXNydXB5OWRy/YS5qcGc_Zml0PWFy/b3VuZHwxNDA6MjA1/JmNyb3A9MTQwOjIw/NTsqLCo"
+                 alt="Mahanati poster">
+            <h3>Mahanati</h3>
+            <p><b>Genre:</b> Biography and Drama</p>
+            <p><b>Release Date:</b> 9 May 2018</p>
+            <p><b>Director:</b> Nag Ashwin</p>
+            <p><b>Cast:</b> Keerthy Suresh, Dulquer Salmaan</p>
+            <p><b>Story:</b> A biographical drama about the life and
+            career of legendary actress Savitri.</p>
+            <p class="rating">Rating: 8.4 out of 10</p>
+            <p><b>Critic Review:</b> A moving film praised for its
+            performances and storytelling.</p>
+        </div>
+
+        <div class="movie">
+            <img src="https://imgs.search.brave.com/LTtoePhVHL1zxBPeljf3f-nLsRvO-3JwDYsvU8JSsIQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1jYWNoZS5jaW5l/bWF0ZXJpYWwuY29t/L3AvNTAweC9ncmNp/b3pqaC9lZWdhLWlu/ZGlhbi1tb3ZpZS1w/b3N0ZXIuanBnP3Y9/MTY3NTkzMjIyNg"
+                 alt="Eega poster">
+            <h3>Eega</h3>
+            <p><b>Genre:</b> Fantasy and Thriller</p>
+            <p><b>Release Date:</b> 6 July 2012</p>
+            <p><b>Director:</b> S. S. Rajamouli</p>
+            <p><b>Cast:</b> Sudeep, Nani, Samantha Ruth Prabhu</p>
+            <p><b>Story:</b> A murdered man is reborn as a housefly
+            and seeks justice against his killer.</p>
+            <p class="rating">Rating: 7.7 out of 10</p>
+            <p><b>Critic Review:</b> An imaginative film with a unique
+            concept and creative visual effects.</p>
+        </div>
+
+    </div>
+
+    <h2 id="reviews">What Makes a Good Movie?</h2>
+
+    <div class="about">
+        <p><b>Story:</b> A strong story keeps viewers interested from
+        beginning to end.</p>
+
+        <p><b>Acting:</b> Good performances make characters believable
+        and memorable.</p>
+
+        <p><b>Music:</b> Songs and background music create emotion
+        and improve the viewing experience.</p>
+
+        <p><b>Direction:</b> Good direction brings the story, actors
+        and visuals together effectively.</p>
+
+        <p><b>Overall Rating:</b> Ratings help viewers compare movies
+        and decide what to watch next.</p>
+    </div>
+
+    <h2 id="about">About Us</h2>
+
+    <div class="about">
+        <p>
+            Our Movie Review Website is designed for people who love
+            cinema. We provide movie information, cast details, story
+            summaries, ratings and sample critic reviews in one place.
+            Our goal is to make discovering movies simple and enjoyable.
+        </p>
+        <p>Explore different genres and find a movie for your next
+        movie night.</p>
+    </div>
+
+    <footer>
+        <p>Movie Review Website</p>
+        <p>2026</p>
+    </footer>
+
+</body>
+</html>
